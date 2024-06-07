@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" />
+  <title>Confirm EMAIL</title>
+</head>
+
+<body style="background-color:black;"
+	   text="white">
+  <h1><center>
+    Online File transfer application
+  </h1>
+  <p><center>
+	Here you can upload the file for transfer. After this, if the file upload is sucessfull, <br>
+  a download URL will be forwarded to the recepients EMAIL adress along with the content of <br>
+  your MESSAGE. Thank you <br>
+  </center></p>
+ 
+  
+<center>
+<form method="post", action="/upload_file" enctype="multipart/form-data">
+  <label for="file">File</label>
+  <input id="file" name="file" type="file" />
+  <button>Upload</button>
+</form>
+
+
+</body>
+
+</html>
